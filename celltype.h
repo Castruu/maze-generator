@@ -1,0 +1,6 @@
+#ifndef CELLTYPE_H
+#define CELLTYPE_H
+
+enum CellType { WALL, START, BLANK, OFFBOUNDS, CONNECTION, END, PATH };
+
+#endif
